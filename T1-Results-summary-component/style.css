@@ -3,6 +3,21 @@ body {
     font-weight: bold;
 }
 
+button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #303B59;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 45px;
+    border: none;
+    transition: 100ms ease-in-out;
+}
+
+button:hover {
+    background: #4d22c8;
+}
+
 .result {
     background: linear-gradient(#7755FF, #402d8d);
     color: #CAC9FF;
@@ -39,6 +54,7 @@ body {
     border-radius: 8px;
     padding: 5px 10px;
     margin: 15px auto;
+    color: gray;
 }
 
 .red {
@@ -61,12 +77,6 @@ body {
     color: #4d22c8;
 }
 
-button {
-    width: 100%;
-    margin-top: 10px;
-    background-color: #303B59;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 45px;
-    border: none;
+.topic-score {
+    color: black;
 }
