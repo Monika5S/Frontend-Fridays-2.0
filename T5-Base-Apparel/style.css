@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-bottom: 15px;
+    font-size: 45px;
+    letter-spacing: 10px;
+    font-weight: normal;
+}
+
+.gray {
+    color: hsl(0, 6%, 24%);
+}
+
+.desaturated-red {
+    color: hsl(0, 36%, 70%);
+}
+
+.soft-red {
+    color: hsl(0, 93%, 68%);
+}
+
+p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    padding: 20px auto;
+    border: none;
+    box-shadow: 0 0 3px rgb(186, 186, 186);
+    border-radius: 45px;
+    background: linear-gradient(135deg,
+            hsl(0, 0%, 100%),
+            hsl(0, 100%, 98%));
+}
+
+input {
+    width: 100%;
+    padding: 5px 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 45px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    transition: 200ms ease-in-out;
+}
+
+button:hover {
+    padding: 15px 25px;
+    border: 2px solid initial;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    background: url("./images/bg-pattern-desktop.svg");
+
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+footer {
+    bottom: 0%;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+.credit {
+    font-size: 12px;
+    text-align: center;
+}
+
+.credit a {
+    text-decoration: none;
+    color: hsl(253, 43%, 50%);
+}
+
+.logo {
+    width: 100px;
+    padding: 10% 0%;
+    padding-left: 15%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    column-gap: 10%;
+    justify-content: center;
+    text-align: left;
+}
+
+.section {
+    width: 90%;
+}
+
+.section img {
+    width: 100%;
+}
+
+.container .content {
+    padding: 5% 15%;
+}
+
+.error,
+.joined {
+    display: none;
+}
+
+@media (max-width: 785px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
